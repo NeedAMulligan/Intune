@@ -1,0 +1,19 @@
+<SyncML xmlns="SYNCML:SYNCML1.2">
+
+<SyncBody>
+    <Replace>
+      <CmdID>2</CmdID>
+      <Item>
+        <Meta>
+          <Format>chr</Format>
+          <Type>text/plain</Type>
+        </Meta>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyLogOnAsService</LocURI>
+        </Target>
+        <Data>EWACORP\Domain Admins&#xF000;EWACORP\Enterprise Admins</Data>
+      </Item>
+    </Replace>
+  <Final/>
+  </SyncBody>
+</SyncML>
