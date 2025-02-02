@@ -1,2 +1,0 @@
-if((Test-Path -LiteralPath "HKCU:\Software\Adobe\Adobe Acrobat\DC\AVGeneral") -ne $true) {  New-Item "HKCU:\Software\Adobe\Adobe Acrobat\DC\AVGeneral" -force -ea SilentlyContinue };
-New-ItemProperty -LiteralPath 'HKCU:\Software\Adobe\Adobe Acrobat\DC\AVGeneral' -Name 'bEnableAV2' -Value 0 -PropertyType DWord -Force -ea SilentlyContinue;
