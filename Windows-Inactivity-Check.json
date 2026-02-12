@@ -1,0 +1,18 @@
+{
+"Rules": [
+    {
+    "SettingName": "InactivityLimit",
+    "Operator": "IsEquals",
+    "DataType": "Int64",
+    "Operand": 1800,
+    "MoreInfoUrl": "https://yourdocumentationlink.com",
+    "RemediationStrings": [
+        {
+        "Language": "en_US",
+        "Title": "Machine inactivity limit must be 1800 seconds.",
+        "Description": "Your device is non-compliant because the inactivity timeout is not set to 30 minutes."
+        }
+    ]
+    }
+]
+}
